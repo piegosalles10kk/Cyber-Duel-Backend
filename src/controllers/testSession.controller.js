@@ -1,4 +1,6 @@
-const { TestSession, EDR } = require('../models');
+const { TestSession } = require('../models/TestSession');
+const { EDR } = require('../models/EDR');
+
 const orchestrationService = require('../services/orchestration.service');
 
 exports.createSession = async (req, res) => {

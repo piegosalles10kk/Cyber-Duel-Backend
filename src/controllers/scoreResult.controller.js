@@ -1,4 +1,4 @@
-const { ScoreResult } = require('../models');
+const { ScoreResult } = require('../models/ScoreResult');
 
 exports.getScoresBySession = async (req, res) => {
   try {

@@ -1,4 +1,4 @@
-const { CollectedLog } = require('../models');
+const { CollectedLog } = require('../models/CollectedLog');
 const scoreEngine = require('../services/scoreEngine.service');
 
 exports.ingestLog = async (req, res) => {

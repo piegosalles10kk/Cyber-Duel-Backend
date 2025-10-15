@@ -1,4 +1,5 @@
-const { PayloadMap, EDR } = require('../models');
+const { PayloadMap } = require('../models/PayloadMap');
+const { EDR } = require('../models/EDR');
 const aiService = require('../services/ai.service');
 
 exports.generateWithAI = async (req, res) => {

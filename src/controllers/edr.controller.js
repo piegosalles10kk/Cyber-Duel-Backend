@@ -1,4 +1,4 @@
-const { EDR } = require('../models');
+const { EDR } = require('../models/EDR');
 
 exports.createEDR = async (req, res) => {
   try {

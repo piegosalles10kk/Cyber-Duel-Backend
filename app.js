@@ -29,7 +29,7 @@ app.use(morgan(config.nodeEnv === 'production' ? 'combined' : 'dev'));
 app.use('/api/', limiter);
 
 // Routes
-app.use('/api/v1', require('./routes'));
+app.use('/api/v1', require('./src/routes'));
 
 // Health Check
 app.get('/health', (req, res) => {

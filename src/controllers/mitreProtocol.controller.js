@@ -1,4 +1,4 @@
-const { MITREProtocol } = require('../models');
+const { MITREProtocol } = require('../models/MITREProtocol');
 
 exports.createProtocol = async (req, res) => {
   try {

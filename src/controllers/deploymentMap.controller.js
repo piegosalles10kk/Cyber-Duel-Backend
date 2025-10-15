@@ -1,4 +1,6 @@
-const { DeploymentMap, EDR } = require('../models');
+const { EDR } = require('../models/EDR');
+const { DeploymentMap } = require('../models/DeploymentMap');
+
 
 exports.createDeploymentMap = async (req, res) => {
   try {
